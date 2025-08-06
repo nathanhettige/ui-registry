@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "axios",
+  "type": "registry:block",
+  "title": "Simple Axios setup",
+  "description": "A simple axios setup",
+  "dependencies": [
+    "axios"
+  ],
+  "files": [
+    {
+      "path": "registry/new-york/blocks/axios/lib/index.api.ts",
+      "content": "import axios from \"axios\";\n\nexport const api = axios.create({\n  baseURL: \"https://pokeapi.co/api/v2\",\n});\n",
+      "type": "registry:lib"
+    }
+  ]
+}

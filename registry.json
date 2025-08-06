@@ -4,6 +4,19 @@
   "homepage": "https://acme.com",
   "items": [
     {
+      "name": "axios",
+      "type": "registry:block",
+      "title": "Simple Axios setup",
+      "description": "A simple axios setup",
+      "dependencies": ["axios"],
+      "files": [
+        {
+          "path": "registry/new-york/blocks/axios/lib/index.api.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+    {
       "name": "hello-world",
       "type": "registry:component",
       "title": "Hello World",
